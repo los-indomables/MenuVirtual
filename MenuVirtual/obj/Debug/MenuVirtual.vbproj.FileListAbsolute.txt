@@ -1,0 +1,15 @@
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\MenuVirtual.exe.config
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\MenuVirtual.exe
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\MenuVirtual.pdb
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\MenuVirtual.xml
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.vbprojAssemblyReference.cache
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.Resources.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.vbproj.GenerateResource.cache
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.vbproj.CoreCompileInputs.cache
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.exe
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.xml
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.pdb
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.frmbebidas.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmMenu.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.Frmcomida.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmPostres.resources
