@@ -23,23 +23,45 @@ Partial Class FrmMenu
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FrmMenu))
+        Me.PnMenu = New System.Windows.Forms.Panel()
+        Me.Lblebidas = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.PnContenedor = New System.Windows.Forms.Panel()
         Me.BtnComentario = New System.Windows.Forms.Button()
         Me.BtnMesero = New System.Windows.Forms.Button()
-        Me.PnMenu = New System.Windows.Forms.Panel()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.BtnBebidas = New System.Windows.Forms.Button()
         Me.BtnComida = New System.Windows.Forms.Button()
-        Me.Lblebidas = New System.Windows.Forms.Label()
-        Me.Panel1.SuspendLayout()
         Me.PnMenu.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'PnMenu
+        '
+        Me.PnMenu.BackColor = System.Drawing.Color.BurlyWood
+        Me.PnMenu.Controls.Add(Me.Button3)
+        Me.PnMenu.Controls.Add(Me.BtnBebidas)
+        Me.PnMenu.Controls.Add(Me.BtnComida)
+        Me.PnMenu.Controls.Add(Me.Lblebidas)
+        Me.PnMenu.Dock = System.Windows.Forms.DockStyle.Left
+        Me.PnMenu.Location = New System.Drawing.Point(0, 0)
+        Me.PnMenu.Name = "PnMenu"
+        Me.PnMenu.Size = New System.Drawing.Size(258, 611)
+        Me.PnMenu.TabIndex = 5
+        '
+        'Lblebidas
+        '
+        Me.Lblebidas.AutoSize = True
+        Me.Lblebidas.Font = New System.Drawing.Font("Clarendon", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lblebidas.Location = New System.Drawing.Point(79, 38)
+        Me.Lblebidas.Name = "Lblebidas"
+        Me.Lblebidas.Size = New System.Drawing.Size(82, 26)
+        Me.Lblebidas.TabIndex = 0
+        Me.Lblebidas.Text = "Menu"
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.BurlyWood
-        Me.Panel1.BackgroundImage = Global.MenuVirtual.My.Resources.Resources._857ae04269ee4faf7ae2753f831f7a6b
         Me.Panel1.Controls.Add(Me.BtnComentario)
         Me.Panel1.Controls.Add(Me.BtnMesero)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
@@ -59,7 +81,6 @@ Partial Class FrmMenu
         'BtnComentario
         '
         Me.BtnComentario.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.BtnComentario.BackColor = System.Drawing.Color.Transparent
         Me.BtnComentario.FlatAppearance.BorderSize = 0
         Me.BtnComentario.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnComentario.Font = New System.Drawing.Font("Clarendon", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -70,12 +91,11 @@ Partial Class FrmMenu
         Me.BtnComentario.Size = New System.Drawing.Size(170, 50)
         Me.BtnComentario.TabIndex = 1
         Me.BtnComentario.Text = "Comentar"
-        Me.BtnComentario.UseVisualStyleBackColor = False
+        Me.BtnComentario.UseVisualStyleBackColor = True
         '
         'BtnMesero
         '
         Me.BtnMesero.Anchor = System.Windows.Forms.AnchorStyles.Right
-        Me.BtnMesero.BackColor = System.Drawing.Color.Transparent
         Me.BtnMesero.FlatAppearance.BorderSize = 0
         Me.BtnMesero.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnMesero.Font = New System.Drawing.Font("Clarendon", 12.0!)
@@ -86,25 +106,10 @@ Partial Class FrmMenu
         Me.BtnMesero.Size = New System.Drawing.Size(186, 50)
         Me.BtnMesero.TabIndex = 0
         Me.BtnMesero.Text = "Pedir ayuda"
-        Me.BtnMesero.UseVisualStyleBackColor = False
-        '
-        'PnMenu
-        '
-        Me.PnMenu.BackColor = System.Drawing.Color.BurlyWood
-        Me.PnMenu.BackgroundImage = Global.MenuVirtual.My.Resources.Resources._857ae04269ee4faf7ae2753f831f7a6b
-        Me.PnMenu.Controls.Add(Me.Button3)
-        Me.PnMenu.Controls.Add(Me.BtnBebidas)
-        Me.PnMenu.Controls.Add(Me.BtnComida)
-        Me.PnMenu.Controls.Add(Me.Lblebidas)
-        Me.PnMenu.Dock = System.Windows.Forms.DockStyle.Left
-        Me.PnMenu.Location = New System.Drawing.Point(0, 0)
-        Me.PnMenu.Name = "PnMenu"
-        Me.PnMenu.Size = New System.Drawing.Size(258, 611)
-        Me.PnMenu.TabIndex = 5
+        Me.BtnMesero.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Clarendon", 14.25!)
@@ -115,11 +120,10 @@ Partial Class FrmMenu
         Me.Button3.Size = New System.Drawing.Size(258, 112)
         Me.Button3.TabIndex = 2
         Me.Button3.Text = "Postres"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'BtnBebidas
         '
-        Me.BtnBebidas.BackColor = System.Drawing.Color.Transparent
         Me.BtnBebidas.FlatAppearance.BorderSize = 0
         Me.BtnBebidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnBebidas.Font = New System.Drawing.Font("Clarendon", 14.25!)
@@ -130,11 +134,10 @@ Partial Class FrmMenu
         Me.BtnBebidas.Size = New System.Drawing.Size(258, 112)
         Me.BtnBebidas.TabIndex = 2
         Me.BtnBebidas.Text = "Bebidas"
-        Me.BtnBebidas.UseVisualStyleBackColor = False
+        Me.BtnBebidas.UseVisualStyleBackColor = True
         '
         'BtnComida
         '
-        Me.BtnComida.BackColor = System.Drawing.Color.Transparent
         Me.BtnComida.FlatAppearance.BorderSize = 0
         Me.BtnComida.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnComida.Font = New System.Drawing.Font("Clarendon", 14.25!)
@@ -145,18 +148,7 @@ Partial Class FrmMenu
         Me.BtnComida.Size = New System.Drawing.Size(258, 112)
         Me.BtnComida.TabIndex = 1
         Me.BtnComida.Text = "Comida"
-        Me.BtnComida.UseVisualStyleBackColor = False
-        '
-        'Lblebidas
-        '
-        Me.Lblebidas.AutoSize = True
-        Me.Lblebidas.BackColor = System.Drawing.Color.Transparent
-        Me.Lblebidas.Font = New System.Drawing.Font("Clarendon", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lblebidas.Location = New System.Drawing.Point(79, 38)
-        Me.Lblebidas.Name = "Lblebidas"
-        Me.Lblebidas.Size = New System.Drawing.Size(82, 26)
-        Me.Lblebidas.TabIndex = 0
-        Me.Lblebidas.Text = "Menu"
+        Me.BtnComida.UseVisualStyleBackColor = True
         '
         'FrmMenu
         '
@@ -175,9 +167,9 @@ Partial Class FrmMenu
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        Me.Panel1.ResumeLayout(False)
         Me.PnMenu.ResumeLayout(False)
         Me.PnMenu.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

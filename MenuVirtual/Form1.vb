@@ -33,6 +33,4 @@
         frmPostres.Parent = PnContenedor
         frmPostres.Show()
     End Sub
-
-
 End Class
