@@ -24,22 +24,25 @@ Partial Class frmbebidas
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.LblBebidas = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.IndianRed
-        Me.Panel1.Controls.Add(Me.PictureBox1)
-        Me.Panel1.Controls.Add(Me.LblBebidas)
+        Me.Panel1.Controls.Add(Me.Button4)
+        Me.Panel1.Controls.Add(Me.Button3)
+        Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1386, 100)
+        Me.Panel1.Size = New System.Drawing.Size(1370, 100)
         Me.Panel1.TabIndex = 0
         '
         'Button1
@@ -52,34 +55,56 @@ Partial Class frmbebidas
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'LblBebidas
+        'Button2
         '
-        Me.LblBebidas.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.LblBebidas.AutoSize = True
-        Me.LblBebidas.Font = New System.Drawing.Font("Clarendon", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LblBebidas.Location = New System.Drawing.Point(633, 37)
-        Me.LblBebidas.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.LblBebidas.Name = "LblBebidas"
-        Me.LblBebidas.Size = New System.Drawing.Size(125, 30)
-        Me.LblBebidas.TabIndex = 0
-        Me.LblBebidas.Text = "Bebidas"
-        Me.LblBebidas.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Button2.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Location = New System.Drawing.Point(0, 0)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(361, 100)
+        Me.Button2.TabIndex = 0
+        Me.Button2.Text = "Fria"
+        Me.Button2.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'Button3
         '
-        Me.PictureBox1.Image = Global.MenuVirtual.My.Resources.Resources.taza_para_cafe1
-        Me.PictureBox1.Location = New System.Drawing.Point(425, 12)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(61, 61)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Location = New System.Drawing.Point(354, 0)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(502, 100)
+        Me.Button3.TabIndex = 1
+        Me.Button3.Text = "Caliente"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Location = New System.Drawing.Point(1012, 0)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(358, 100)
+        Me.Button4.TabIndex = 2
+        Me.Button4.Text = "Alcohol"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DataGridView1.Location = New System.Drawing.Point(0, 100)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(1370, 643)
+        Me.DataGridView1.TabIndex = 2
         '
         'frmbebidas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1386, 743)
+        Me.ClientSize = New System.Drawing.Size(1370, 743)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Font = New System.Drawing.Font("Clarendon", 12.0!)
@@ -91,14 +116,15 @@ Partial Class frmbebidas
         Me.Text = "bebidas"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button1 As Button
-    Friend WithEvents LblBebidas As Label
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents DataGridView1 As DataGridView
 End Class

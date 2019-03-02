@@ -164,5 +164,8 @@
   <ItemGroup>
     <None Include="Resources\camarera.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\857ae04269ee4faf7ae2753f831f7a6b.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
