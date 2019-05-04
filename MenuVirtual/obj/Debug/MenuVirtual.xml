@@ -22,32 +22,52 @@ MenuVirtual
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.camarera">
+<member name="P:MenuVirtual.My.Resources.Resources.camarero">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.plato">
+<member name="P:MenuVirtual.My.Resources.Resources.charlar">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.plato1">
+<member name="P:MenuVirtual.My.Resources.Resources.charlar1">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.porcion_de_tarta">
+<member name="P:MenuVirtual.My.Resources.Resources.feliz">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.taza_para_cafe">
+<member name="P:MenuVirtual.My.Resources.Resources.feliz2">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:MenuVirtual.My.Resources.Resources.taza_para_cafe1">
+<member name="P:MenuVirtual.My.Resources.Resources.limonada">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MenuVirtual.My.Resources.Resources.muffin">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MenuVirtual.My.Resources.Resources.plato4">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MenuVirtual.My.Resources.Resources.sorprendido">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MenuVirtual.My.Resources.Resources.triste">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

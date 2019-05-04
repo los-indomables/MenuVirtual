@@ -31,7 +31,7 @@ Partial Class FrmPostres
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.IndianRed
+        Me.Panel1.BackColor = System.Drawing.Color.DarkOrange
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.LblPostres)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
@@ -45,6 +45,7 @@ Partial Class FrmPostres
         Me.LblPostres.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.LblPostres.AutoSize = True
         Me.LblPostres.Font = New System.Drawing.Font("Clarendon", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LblPostres.ForeColor = System.Drawing.Color.White
         Me.LblPostres.Location = New System.Drawing.Point(474, 35)
         Me.LblPostres.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LblPostres.Name = "LblPostres"
@@ -55,10 +56,10 @@ Partial Class FrmPostres
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.MenuVirtual.My.Resources.Resources.porcion_de_tarta
+        Me.PictureBox1.ErrorImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(396, 14)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(65, 65)
+        Me.PictureBox1.Size = New System.Drawing.Size(23, 23)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False

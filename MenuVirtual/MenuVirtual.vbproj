@@ -48,6 +48,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.60.6\lib\net451\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -79,17 +83,45 @@
     <Compile Include="bebidas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FrmCantidad.Designer.vb">
+      <DependentUpon>FrmCantidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCantidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrden.Designer.vb">
+      <DependentUpon>FrmOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo\Bebida.vb" />
+    <Compile Include="Modulo\ComidaRapida.vb" />
+    <Compile Include="Modulo\Conexion.vb" />
+    <Compile Include="Modulo\FormulariosHijos.vb" />
+    <Compile Include="Comentar.Designer.vb">
+      <DependentUpon>Comentar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comentar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="comida.Designer.vb">
       <DependentUpon>comida.vb</DependentUpon>
     </Compile>
     <Compile Include="comida.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmPostres.Designer.vb">
@@ -113,16 +145,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Opciones.Designer.vb">
+      <DependentUpon>Opciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="bebidas.resx">
       <DependentUpon>bebidas.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Comentar.resx">
+      <DependentUpon>Comentar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="comida.resx">
       <DependentUpon>comida.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="FrmCantidad.resx">
+      <DependentUpon>FrmCantidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrden.resx">
+      <DependentUpon>FrmOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPostres.resx">
       <DependentUpon>FrmPostres.vb</DependentUpon>
@@ -132,6 +179,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones.resx">
+      <DependentUpon>Opciones.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -147,22 +197,38 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\plato.png" />
+    <None Include="packages.config" />
+    <None Include="Resources\plato4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\taza-para-cafe.png" />
+    <None Include="Resources\limonada.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\porcion-de-tarta.png" />
+    <None Include="Resources\muffin.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\taza-para-cafe1.png" />
+    <None Include="Resources\charlar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\plato1.png" />
+    <None Include="Resources\charlar1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\camarera.png" />
+    <None Include="Resources\camarero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feliz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feliz2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sorprendido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\DataSources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

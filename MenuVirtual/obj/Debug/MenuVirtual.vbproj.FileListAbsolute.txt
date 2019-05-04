@@ -13,3 +13,10 @@ C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.frmbeb
 C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmMenu.resources
 C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.Frmcomida.resources
 C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmPostres.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmComentar.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\Dapper.dll
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\bin\Debug\Dapper.xml
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.vbproj.CopyComplete
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmCantidad.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.Opciones.resources
+C:\Users\ittov\source\repos\MenuVirtual\MenuVirtual\obj\Debug\MenuVirtual.FrmOrden.resources
